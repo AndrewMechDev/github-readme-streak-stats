@@ -1,7 +1,7 @@
 <?php
-error_reporting(E_ERROR | E_PARSE);
-
 declare(strict_types=1);
+
+error_reporting(E_ERROR | E_PARSE);
 
 // load functions
 require_once dirname(__DIR__, 1) . "/vendor/autoload.php";
