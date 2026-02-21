@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 ini_set('display_errors', '0');
-error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
+error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE); 
 
 // load functions
 require_once dirname(__DIR__, 1) . "/vendor/autoload.php";
